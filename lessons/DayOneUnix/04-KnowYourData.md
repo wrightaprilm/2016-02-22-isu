@@ -106,7 +106,7 @@ You should have downloaded the following files:
 
 6. Preview the first few lines (``head``) of the compressed (gzip'd) reference genome using the ``zcat`` command:
 ```
-$ zcat Escherichia_coli_b_str_rel606.GCA_000017985.1.27.dna.genome.fa.gz |head
+$ zcat < Escherichia_coli_b_str_rel606.GCA_000017985.1.27.dna.genome.fa.gz |head
 ```
 
 7. Finally, unzip the E.coli reference genome, which will be part of the variant calling lesson and place it in your 'data folder' in a new 'ref_genome' folder. 

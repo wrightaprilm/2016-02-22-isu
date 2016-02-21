@@ -88,7 +88,7 @@ Enter a short explantation of what is contained in this directory.
 Now, we will sync the file between the machines. On your personal machine:
 
 ```
-rsync -zvh dcuser@ip.address:/home/dcuser/dc_workshop/results/fastqc_untrimmed_reads/ ~/Downloads/datacarpentry
+rsync -zvh dcuser@ip.address:~/dc_workshop/results/fastqc_untrimmed_reads/ ~/Downloads/datacarpentry
 ```
 
 Some of this syntax should be familiar, some not. Have a look at the below commands, and discuss with a neighbor what you think has happened.
@@ -146,6 +146,6 @@ This prints to the screen what files will be moved. Handy for checking that your
 
 ##Challenge#
 
-I don't know!
+Try running Rsync on a file that you have not previously secure copied. What happens?
 
 
