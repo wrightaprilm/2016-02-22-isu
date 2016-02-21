@@ -156,7 +156,5 @@ When you are finished with your instance, you must terminate. Follow the followi
 
     > **Warning:** This will delete any data on this instance, so you must move any data you wish to save off the instance.
 
-    >  **Tip:** You can use iCommands to move data between your computer, a cloud instance, and the iPlant Data Store. iCommands is installed on the Data Carpentry Amazon AMI. You can download and see documentation for iCommands [here](https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands) - there is also some documentation on setting up iCommands in the Atmosphere section below
 5. Select 'Yes, Terminate' to terminate the instance. 
-
 
