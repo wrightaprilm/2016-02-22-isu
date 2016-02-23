@@ -8,3 +8,5 @@ We ran a [genomics workshop](http://qingpeng.github.io/2016-02-22-isu/) this pas
 
 ##What Didn't
 
++ There was a lost-data issue last year, so Jin tried to copy data instead of move data this time. But it takes more than 20 min which hold workshop for a while. Also, running 6 file for FastQC and Trimmomatic takes long time. Specially automation tried to show run shell script to run FastQC, maybe it is better idea only use 2 or 3 files instead of 6. 
+
