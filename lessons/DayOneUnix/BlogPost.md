@@ -8,3 +8,4 @@ We ran a [genomics workshop](http://qingpeng.github.io/2016-02-22-isu/) this pas
 
 ##What Didn't
 
++ The Git lesson went really smoothly, but I think the narrative needs to be reworked a little bit for DC learners. Git follows pretty naturally in a SC workshop - "How many of you had something working yesterday, and deleted a piece, or made a bad change?" With the smaller amount of scripting in DC workshops, we need to think a little more about how to sell that. 
