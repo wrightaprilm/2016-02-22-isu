@@ -8,4 +8,6 @@ We ran a [genomics workshop](http://qingpeng.github.io/2016-02-22-isu/) this pas
 
 ##What Didn't
 
-+ The Git lesson went really smoothly, but I think the narrative needs to be reworked a little bit for DC learners. Git follows pretty naturally in a SC workshop - "How many of you had something working yesterday, and deleted a piece, or made a bad change?" With the smaller amount of scripting in DC workshops, we need to think a little more about how to sell that. 
++ [AMW] The Git lesson went really smoothly, but I think the narrative needs to be reworked a little bit for DC learners. Git follows pretty naturally in a SC workshop - "How many of you had something working yesterday, and deleted a piece, or made a bad change?" With the smaller amount of scripting in DC workshops, we need to think a little more about how to sell that. 
++ [Jin] There was a lost-data issue last year, so Jin tried to copy data instead of move data this time. But it takes more than 20 min which hold workshop for a while. Also, running 6 file for FastQC and Trimmomatic takes long time. Specially automation tried to show run shell script to run FastQC, maybe it is better idea only use 2 or 3 files instead of 6. 
+
