@@ -11,6 +11,17 @@ We ran a [genomics workshop](http://qingpeng.github.io/2016-02-22-isu/) this pas
 + Amazon EC2 instances: These instances come pre-loaded with the data. For the large genomic datasets, and unreliable room WiFi, this made everything run very smoothly. There are some aspects of how to start the instances that are a little opaque for new instructors. We've put some notes [here](https://github.com/wrightaprilm/2016-02-22-isu/blob/gh-pages/lessons/DayOneUnix/InstructorNotes.md).
 
 #### This worked really well and we had no problems I have encountered before with two people trying to log into the same instance or people.  
++ [Qingpeng] I used the git-novice lesson materils from SWC and it went well I think. Basically I focused on the task of writing a manuscript and working with other collaborators. Most of the topics are covered except 6-Ignoring Things, and 10-12, since installing git on their own computers took some extra minutes. It was nice that Josh and I could demonstrate how collaboration on github works on the fly. It is novice lesson, so branch was not introduced officially but we talked about some deeper stuffs like "pull request" briefly to give the students general idea about how to work on a large project with many more people. In conclusion, the SWC git-novice materials works great for a morning session. There are some glitches in the SWC git-novice lesson materials that needs to be checked and I will submit pull/issue requests accordingly. 
+
++ [Qingpeng] I just reorganized the lesson directory on the workshop repo. https://github.com/qingpeng/2016-02-22-isu/tree/gh-pages/lessons
+April and Jin made great efforts in preparing/organizing the lesson materials. 
+Previously they are kind of scattered in different places. Now they are integrated as a whole and ready to go. I think both materials are worthy of further review by DC lesson maintainers.
+https://github.com/qingpeng/2016-02-22-isu/tree/gh-pages/lessons/DayOneUnix_by_April
+(April taught the sections except 05-UNIXShell 06-Automation.md 06.5ParallelAutomation.md in the morning.)
+https://github.com/qingpeng/2016-02-22-isu/tree/gh-pages/lessons/Day1Afternoon-Shell_by_Jin
+(Jin taught the shell/automation stuffs in the afternoon.)
+[You are all welcome to edit this section if there is any inaccuracy here.]
+
 
 
 ##What Didn't
@@ -20,6 +31,8 @@ We ran a [genomics workshop](http://qingpeng.github.io/2016-02-22-isu/) this pas
 #### I agree here -- git works well when the focus is general programming or automation, but the pertinence was hazy for a lot of people here.  I think hammering the "data analysis into manuscript" argument of why you want to learn git is the way to go here.
 
 + [Jin] There was a lost-data issue last year, so Jin tried to copy data instead of move data this time. But it takes more than 20 min which hold workshop for a while. Also, running 6 file for FastQC and Trimmomatic takes long time. Specially automation tried to show run shell script to run FastQC, maybe it is better idea only use 2 or 3 files instead of 6.
++ [Qingpeng] I agree. Actually the 6 files are in the hidden folder. In the dc_sample_data/untrimmed_fastq/ folder in that AWS image, there are only 2 files. I guess the maintainer may have been aware of this problem.
++ [Qingpeng] In the beginning I was planning to run the git stuffs on Amazon EC2 machine. But it was my bad that I didn't realized git was not preinstalled in that image. (Git was not included as core lessons for DC. So this should not be surprising.) I decided to help the students to install Git on their personal computer. This took about 20 minutes but finally it is not bad for them to have git in their own computer so they can start using it for their project/writing right away.
 
 #### I think we (Data Carpentry in general) should slim down the data sets (or have multiple versions) so that students aren't stuck sitting running analyses.  Perhaps a solution is also to plan the material so when something is going to take a while and different topic or coffee or lunch break can be scheduled.  This takes some more planning and rigid scheduling ahead of time.  It's sometimes nice to improvise when people have questions or the room is of a specific discipline.
 
