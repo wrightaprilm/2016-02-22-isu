@@ -3,7 +3,7 @@
 Project organization is one of the most important parts of a sequencing project, but is often overlooked in the excitement to get a first look at new data. While it's best to get yourself organized before you begin analysis,
 it's never too late to start.
 
-You should approach your sequencing project in a very similar way to how you do a biological experiment, and ideally, begins with experimental design. We're going to assume that you've already designed a beautiful sequencing experiment 
+You should approach your sequencing project in a very similar way to how you do a biological experiment, and ideally, begin with experimental design. We're going to assume that you've already designed a beautiful sequencing experiment 
 to address your biological question, collected appropriate samples, and that you have enough statistical power. For all of those steps, collecting specimens, extracting DNA, prepping your samples, you've likely kept a lab notebook that details how and why you did each step, but documentation doesn't stop at the sequencer! 
 
 Every computational analysis you do is going to spawn many files, and inevitability, you'll 
@@ -91,8 +91,8 @@ As you may remember from the shell lesson, the pipe ``|`` sends the output of hi
 *date*: Even if we name our file with the date, it can be useful to know when  you ran something. Did you remember to run your analysis after the new data were downloaded? This command can help you remember.
 
 
-3. Using your knowledge of the shell use the append redirect ``>>`` to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
-4. You may have noticed that your history may contain the ``history`` command itself. To remove this redundancy from our log, lets use the ``nano`` text editor to fix the file:
+3. With your knowledge of the shell use the append redirect ``>>`` to create a file called **dc_workshop_log_XXXX_XX_XX.txt** (Use the four-digit year, two-digit month, and two digit day, e.g. dc_workshop_log_2015_07_30.txt)
+4. You may have noticed that your history may contain the ``history`` command itself. To remove this redundancy from our log, let's use the ``nano`` text editor to fix the file:
    ```bash
 $ nano dc_workshop_log
 ```
@@ -100,7 +100,7 @@ From the nano screen, you should be able to use your cursor to navigate, type, a
 5. Add a dateline and comment to the line where you have created the directory e.g. <br>
    ```
 # 2015_07_30 
-```
+```     
 <br>
    ```
 # Created sample directories for the Data Carpentry workshop

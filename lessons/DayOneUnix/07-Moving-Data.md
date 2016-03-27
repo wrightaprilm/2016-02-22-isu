@@ -18,7 +18,7 @@ In this case, you are using a command line tool, *wget*, to download content fro
 
 ### Moving files between your laptop and your instance
 
-These directions are platform specific so please follow the instructions for your system
+These directions are platform specific so please follow the instructions for your system.
 
 ##Uploading Data to your Virtual Machine
 
