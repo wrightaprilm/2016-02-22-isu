@@ -47,7 +47,7 @@ the process looks like this:
     [Zenodo](http://zenodo.org), possibly as soon as it's collected,
     and given its own 
     [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI).
-    Or the data was already published and is stored in
+    Or the data was already published and stored in
     [Dryad](http://datadryad.org/).
 *   The scientist creates a new repository on GitHub to hold her work.
 *   As she does her analysis,
@@ -82,7 +82,7 @@ by acting as a shareable electronic lab notebook for computational work:
 
 *   The conceptual stages of your work are documented, including who did
     what and when. Every step is stamped with an identifier (the commit ID)
-    that is for most intents and purposes is unique.
+    that is for most intents and purposes unique.
 *   You can tie documentation of rationale, ideas, and other
     intellectual work directly to the changes that spring from them.
 *   You can refer to what you used in your research to obtain your

@@ -70,7 +70,7 @@ The prompt should sit there a little bit, and then it should look like nothing
 happened. But type `ls`. You should have a new file called good-data.txt. Take
 a look at it and see if it has what you think it should.
 
-If we use '>>', it will append to rather tha overwrite a file.  This can be useful for
+If we use '>>', it will append to rather than overwrite a file.  This can be useful for
 saving more than one search, for example:
 
     $ grep -B1 -A2 NNNNNNNNNN SRR098026.fastq > bad_reads.txt     
@@ -104,7 +104,7 @@ Redirecting is not super intuitive, but it's really powerful for stringing
 together these different commands, so you can do whatever you need to do.
 
 The philosophy behind these command line programs is that none of them
-really do anything all that impressive. BUT when you start chaining
+really do anything all that impressive by themselves. BUT when you start chaining
 them together, you can do some really powerful things really
 efficiently. If you want to be proficient at using the shell, you must
 learn to become proficient with the pipe and redirection operators:
@@ -112,12 +112,12 @@ learn to become proficient with the pipe and redirection operators:
 
 
 
-Finally, let's use the new tools in our kit and a few new ones to example our SRA metadata file.
+Finally, let's use the new tools in our kit and a few new ones to examine our SRA metadata file.
 
     $ cd 
     $ cd dc_sample_data/
 
-Let's ask a few questions about the data
+Let's ask a few questions about the data.
 
 1) How many of the read libraries are paired end?
 
@@ -127,8 +127,8 @@ First, what are the column headers?
       BioSample_s	InsertSize_l	LibraryLayout_s	Library_Name_s	LoadDate_s	MBases_l	MBytes_l	ReleaseDate_s Run_s SRA_Sample_s Sample_Name_s Assay_Type_s AssemblyName_s BioProject_s Center_Name_s Consent_s Organism_Platform_s SRA_Study_s g1k_analysis_group_s g1k_pop_code_s source_s strain_s
 
 That's only the first line but it is a lot to take in.  'cut' is a program that will extract columns in tab-delimited
-files.  It is a very good command to know.  Lets look at just the first four columns in the header using the '|' readirect
-and 'cut'
+files.  It is a very good command to know.  Let's look at just the first four columns in the header using the '|' redirect
+and 'cut' command.
 
     $ head -n 1 SraRunTable.txt | cut -f1-4
       BioSample_s InsertSize_l      LibraryLayout_s	Library_Name_s    
@@ -163,7 +163,7 @@ header and sort the values.  The '-v' option for greap means return all lines th
 This returns a sorted list (too long to show here) of PAIRED and SINGLE values.  Now we can use 'uniq' with the '-c' flag to
 count the different categories.
 
-    $ cut -f3 SraRunTable.txt | grep -v LibraryLayout_s |sort | uniq -c
+    $ cut -f3 SraRunTable.txt | grep -v LibraryLayout_s | sort | uniq -c
       2 PAIRED
       35 SINGLE 
 
@@ -189,7 +189,7 @@ OK, we are good to go.
 
 1) How many sample load dates are there?
 
-2) How many samples were loaded on each date
+2) How many samples were loaded on each date?
 
 3) Filter subsets into new files bases on load date
 
@@ -207,8 +207,8 @@ OK, we are good to go.
 - man bash
 - Google - if you don't know how to do something, try Googling it. Other people
 have probably had the same question.
-- Learn by doing. There's no real other way to learn this than by trying it
-out.  Write your next paper in nano (really emacs or vi), open pdfs from
+- Learn by doing. There's no real other way to learn the shell and unix than by trying it
+out.  --Write your next paper in nano (really emacs or vi)-- write your daily logs in nano, open pdfs from
 the command line, automate something you don't really need to automate.
 
 
